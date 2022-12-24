@@ -1,0 +1,28 @@
+13:17:44 **** Incremental Build of configuration Debug for project 01_task_creation ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "01_task_creation.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/avi/STM32CubeIDE/workspace_1.11.0/01_task_creation/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="01_task_creation.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 01_task_creation.elf
+ 
+arm-none-eabi-size   01_task_creation.elf 
+arm-none-eabi-objdump -h -S  01_task_creation.elf  > "01_task_creation.list"
+   text	   data	    bss	    dec	    hex	filename
+  19412	    116	   2964	  22492	   57dc	01_task_creation.elf
+Finished building: default.size.stdout
+ 
+Finished building: 01_task_creation.list
+ 
+13:17:46 **** Incremental Build of configuration Debug for project 01_task_creation ****
+make -j8 all 
+arm-none-eabi-size   01_task_creation.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19412	    116	   2964	  22492	   57dc	01_task_creation.elf
+Finished building: default.size.stdout
+ 
+13:17:53 **** Incremental Build of configuration Debug for project 01_task_creation ****
+make -j8 all 
+arm-none-eabi-size   01_task_creation.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19412	    116	   2964	  22492	   57dc	01_task_creation.elf
+Finished building: default.size.stdout
+ 
