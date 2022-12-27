@@ -15,3 +15,5 @@
 1672128414522	Delete resource '06_change_own_priority/05_change_priority_at_runtime.launch'
 1672131120646	Delete resource '07_read_priority/Debug/06_change_own_priority.elf'
 1672131124317	Delete resource '07_read_priority/06_change_own_priority.launch'
+1672131962950	Delete resource '08_suspending_task/Debug/07_read_priority.elf'
+1672131968682	Delete resource '08_suspending_task/07_read_priority Debug.launch'

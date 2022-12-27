@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02_task_from_other_task Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_task_functions,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07_read_priority Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_task_creation Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02_task_from_other_task Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_task_functions,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04_task_priorities,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:05_change_priority_at_runtime,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:06_change_own_priority
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_task_creation\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_task_creation\ Debug/activeLaunchTarget=null\:---
