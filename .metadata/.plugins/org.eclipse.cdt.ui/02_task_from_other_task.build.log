@@ -1,4 +1,4 @@
-15:46:15 **** Incremental Build of configuration Debug for project 02_task_from_other_task ****
+16:35:43 **** Incremental Build of configuration Debug for project 02_task_from_other_task ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "02_task_from_other_task.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/avi/STM32CubeIDE/workspace_1.11.0/02_task_from_other_task/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02_task_from_other_task.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -7,11 +7,11 @@ Finished building target: 02_task_from_other_task.elf
 arm-none-eabi-size   02_task_from_other_task.elf 
 arm-none-eabi-objdump -h -S  02_task_from_other_task.elf  > "02_task_from_other_task.list"
    text	   data	    bss	    dec	    hex	filename
-  23968	     20	   8188	  32176	   7db0	02_task_from_other_task.elf
+  24036	     20	   8196	  32252	   7dfc	02_task_from_other_task.elf
 Finished building: default.size.stdout
  
 Finished building: 02_task_from_other_task.list
  
 
-15:46:15 Build Finished. 0 errors, 0 warnings. (took 366ms)
+16:35:43 Build Finished. 0 errors, 0 warnings. (took 366ms)
 
