@@ -489,6 +489,7 @@ void vRedLEDControllerTask(void *pvParameters)
  8000594:	48000c00 	.word	0x48000c00
 
 08000598 <vGreenLEDControllerTask>:
+
 	}
 }
 
