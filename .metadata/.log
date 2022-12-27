@@ -5324,3 +5324,6 @@ java.lang.IllegalStateException: Disconnected before saving. Please post stacktr
 		at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
 		at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
 		... 22 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-27 10:51:55.938
+!MESSAGE Indexed '07_read_priority' (37 sources, 147 headers) in 1.67 sec: 16,712 declarations; 93,598 references; 3 unresolved inclusions; 156 syntax errors; 172 unresolved names (0.16%)

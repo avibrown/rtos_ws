@@ -1,0 +1,10 @@
+11:00:00 **** Incremental Build of configuration Debug for project 07_read_priority ****
+make -j8 all 
+arm-none-eabi-size   07_read_priority.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24676	     24	   8208	  32908	   808c	07_read_priority.elf
+Finished building: default.size.stdout
+ 
+
+11:00:00 Build Finished. 0 errors, 0 warnings. (took 167ms)
+
